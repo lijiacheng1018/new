@@ -1,0 +1,32 @@
+[ {
+  "id" : "mock-0001-4891",
+  "title" : "Towards Efficient Fault Tolerance on sync #1",
+  "authors" : [ "Grace Hopper", "Barbara Liskov" ],
+  "published" : "2026-08-13T00:00:00",
+  "updated" : "2026-08-14T00:00:00",
+  "summary" : "A deterministic mock paper about sync, generated for offline demo and testing. (#1)",
+  "categories" : [ "cs.DC", "cs.DS" ],
+  "link" : "https://example.org/abs/mock-0001-4891",
+  "primaryCategory" : "cs.DC"
+}, {
+  "id" : "mock-0002-4891",
+  "title" : "Towards Efficient Incremental on sync #2",
+  "authors" : [ "Barbara Liskov", "Edsger Dijkstra" ],
+  "published" : "2026-08-16T00:00:00",
+  "updated" : "2026-08-17T00:00:00",
+  "summary" : "A deterministic mock paper about sync, generated for offline demo and testing. (#2)",
+  "categories" : [ "cs.DC", "cs.DS" ],
+  "link" : "https://example.org/abs/mock-0002-4891",
+  "primaryCategory" : "cs.DC"
+}, {
+  "id" : "mock-0003-4891",
+  "title" : "Towards Efficient Fault Tolerance on sync #3",
+  "authors" : [ "Donald Knuth", "Edsger Dijkstra" ],
+  "published" : "2026-08-19T00:00:00",
+  "updated" : "2026-08-20T00:00:00",
+  "summary" : "A deterministic mock paper about sync, generated for offline demo and testing. (#3)",
+  "categories" : [ "cs.DC", "cs.DS" ],
+  "doi" : "10.0000/mock.4891.3",
+  "link" : "https://example.org/abs/mock-0003-4891",
+  "primaryCategory" : "cs.DC"
+} ]

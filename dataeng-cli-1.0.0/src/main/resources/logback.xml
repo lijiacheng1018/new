@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 结构化日志统一输出到 stderr，避免污染 stdout 的 JSON/结果输出 -->
+    <appender name="STDERR" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.err</target>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level [%thread] %logger{24} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="${DATAENG_LOG_LEVEL:-INFO}">
+        <appender-ref ref="STDERR"/>
+    </root>
+</configuration>

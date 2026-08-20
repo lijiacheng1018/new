@@ -1,0 +1,16 @@
+{
+  "pass" : true,
+  "comment" : "通过：记录数 3，必填字段完整率最低 100.0%，重复率 0.0%，schema 类型/格式错误 0，过期记录 0",
+  "totalRecords" : 3,
+  "duplicateCount" : 0,
+  "duplicateRate" : 0.0,
+  "fieldCompleteness" : {
+    "id" : 1.0,
+    "title" : 1.0,
+    "published" : 1.0,
+    "authors" : 1.0,
+    "summary" : 1.0
+  },
+  "checks" : [ "必填字段完整率", "唯一 ID 重复率", "schema 字段类型/格式", "过期记录" ],
+  "issues" : [ ]
+}
